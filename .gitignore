@@ -1,0 +1,39 @@
+# secrets
+.env
+.env.*
+!.env.example
+
+# runtime state / logs
+state.json
+state.json.*
+watcher.log
+watcher.log.*
+people.log
+people/*.json
+backups/
+last-read.json
+name-map.json
+following.json
+autoreply.json
+
+# browser profile / cookies
+.profile/
+*.cookie
+*.cookies
+
+# captured / private artifacts
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.gif
+*.bin
+*.jsonl
+*.zip
+*.7z
+*.bak-*
+*.corrupt-*
+
+# dependencies
+node_modules/
+npm-debug.log*

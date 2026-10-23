@@ -1,0 +1,19 @@
+{
+  "name": "douyin-ai-reply-approval",
+  "version": "0.1.0",
+  "description": "抖音私信 AI 审批助手：飞书审批候选回复，可选自动回复",
+  "type": "module",
+  "private": false,
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node --env-file=.env watcher10.mjs",
+    "test": "node selftest.mjs && node proactive-selftest.mjs && node people-selftest.mjs",
+    "test:regress": "node regress.mjs"
+  },
+  "dependencies": {
+    "playwright-core": "^1.49.0"
+  }
+}
