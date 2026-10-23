@@ -40,7 +40,7 @@
 ### 1. 环境
 
 - Windows 10/11（当前主要在 Windows 上验证）
-- Node.js 20+
+- Node.js 20.6+
 - Microsoft Edge
 - 一个飞书自建应用（需要机器人能力）和一个飞书群
 - DeepSeek API Key

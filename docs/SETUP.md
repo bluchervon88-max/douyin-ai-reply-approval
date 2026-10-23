@@ -2,7 +2,7 @@
 
 ## 前置
 
-- Windows 10/11，Node.js 20+
+- Windows 10/11，Node.js 20.6+
 - Microsoft Edge
 - 飞书自建应用 + 一个群
 - DeepSeek API Key

@@ -6,7 +6,7 @@
   "private": false,
   "license": "MIT",
   "engines": {
-    "node": ">=20"
+    "node": ">=20.6"
   },
   "scripts": {
     "start": "node --env-file=.env watcher10.mjs",
